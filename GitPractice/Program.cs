@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Welcome, do you wanna play a game?");
+            string answer = Console.ReadLine();
+            Console.WriteLine("Good.");
         }
     }
 }
